@@ -59,3 +59,12 @@ scoreboard objectives add used.netherite_hoe minecraft.used:minecraft.netherite_
 ## food
 scoreboard objectives add used.golden_apple minecraft.used:minecraft.golden_apple
 scoreboard objectives add used.enchanted_golden_apple minecraft.used:minecraft.enchanted_golden_apple
+## waffle
+scoreboard objectives add custom.walk_one_cm minecraft.custom:walk_one_cm
+scoreboard objectives add custom.climb_one_cm minecraft.custom:climb_one_cm
+scoreboard objectives add custom.crouch_one_cm minecraft.custom:crouch_one_cm
+scoreboard objectives add custom.jump minecraft.custom:jump
+scoreboard objectives add custom.leave_game minecraft.custom:leave_game
+scoreboard objectives add custom.time_since_death minecraft.custom:time_since_death
+scoreboard objectives add custom.time_since_rest minecraft.custom:time_since_rest
+scoreboard objectives add custom.total_world_time minecraft.custom:total_world_time
