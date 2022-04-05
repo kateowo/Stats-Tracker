@@ -20,7 +20,7 @@ scoreboard objectives add player_kills playerKillCount
 scoreboard objectives modify player_kills displayname {"text":" 🗡","color":"red"}
 ## killed by
 scoreboard objectives add death deathCount
-scoreboard objectives modify death displayname {"text":" 💀","color":"red"}
+scoreboard objectives modify death displayname {"text":" ☠","color":"red"}
 ## swords
 scoreboard objectives add used.wooden_sword minecraft.used:minecraft.wooden_sword
 scoreboard objectives add used.stone_sword minecraft.used:minecraft.stone_sword
