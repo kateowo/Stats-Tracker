@@ -4,10 +4,15 @@
 # create scoreboards
 ## general
 scoreboard objectives add health health
+scoreboard objectives modify health displayname {"text":" ♥","color":"red"}
 scoreboard objectives add hunger food
+scoreboard objectives modify hunger displayname {"text":" ♥","color":"gold"}
 scoreboard objectives add armor armor
+scoreboard objectives modify hunger displayname {"text":" 🛡","color":"gray"}
 scoreboard objectives add level level
+scoreboard objectives modify level displayname {"text":" ⭐","color":"green"}
 scoreboard objectives add xp xp
+scoreboard objectives modify xp displayname {"text":" ⭐","color":"green"}
 ## kills
 scoreboard objectives add total_kills totalKillCount
 scoreboard objectives add player_kills playerKillCount
