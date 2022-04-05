@@ -15,9 +15,12 @@ scoreboard objectives add xp xp
 scoreboard objectives modify xp displayname {"text":" ⭐","color":"green"}
 ## kills
 scoreboard objectives add total_kills totalKillCount
+scoreboard objectives modify total_kills displayname {"text":" 🗡","color":"red"}
 scoreboard objectives add player_kills playerKillCount
+scoreboard objectives modify player_kills displayname {"text":" 🗡","color":"red"}
 ## killed by
 scoreboard objectives add death deathCount
+scoreboard objectives modify death displayname {"text":" 💀","color":"red"}
 ## swords
 scoreboard objectives add used.wooden_sword minecraft.used:minecraft.wooden_sword
 scoreboard objectives add used.stone_sword minecraft.used:minecraft.stone_sword
