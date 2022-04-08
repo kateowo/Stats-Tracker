@@ -14,32 +14,32 @@ scoreboard objectives add player_kills playerKillCount {"text":"🗡","color":"r
 ## killed by
 scoreboard objectives add death deathCount {"text":"☠","color":"red"}
 ## bows
-scoreboard objectives add used.bow minecraft.used:minecraft.bow
-scoreboard objectives add used.crossbow minecraft.used:minecraft.crossbow
-scoreboard objectives add used.trident minecraft.used:minecraft.trident
+scoreboard objectives add used.bow minecraft.used:minecraft.bow {"text":"🏹","color":"yellow"}
+scoreboard objectives add used.crossbow minecraft.used:minecraft.crossbow {"text":"🏹","color":"gold"}
+scoreboard objectives add used.trident minecraft.used:minecraft.trident {"text":"🔱","color":"yellow"}
 scoreboard objectives add used.egg minecraft.used:minecraft.egg
 scoreboard objectives add used.snowball minecraft.used:minecraft.snowball
 ## swords
-scoreboard objectives add used.wooden_sword minecraft.used:minecraft.wooden_sword
-scoreboard objectives add used.stone_sword minecraft.used:minecraft.stone_sword
-scoreboard objectives add used.iron_sword minecraft.used:minecraft.iron_sword
-scoreboard objectives add used.golden_sword minecraft.used:minecraft.golden_sword
-scoreboard objectives add used.diamond_sword minecraft.used:minecraft.diamond_sword
-scoreboard objectives add used.netherite_sword minecraft.used:minecraft.netherite_sword
+scoreboard objectives add used.wooden_sword minecraft.used:minecraft.wooden_sword {"text":"🗡","color":"red"}
+scoreboard objectives add used.stone_sword minecraft.used:minecraft.stone_sword {"text":"🗡","color":"gray"}
+scoreboard objectives add used.iron_sword minecraft.used:minecraft.iron_sword {"text":"🗡","color":"white"}
+scoreboard objectives add used.golden_sword minecraft.used:minecraft.golden_sword {"text":"🗡","color":"gold"}
+scoreboard objectives add used.diamond_sword minecraft.used:minecraft.diamond_sword {"text":"🗡","color":"aqua"}
+scoreboard objectives add used.netherite_sword minecraft.used:minecraft.netherite_sword {"text":"🗡","color":"light_purple"}
 ## axes
-scoreboard objectives add used.wooden_axe minecraft.used:minecraft.wooden_axe
-scoreboard objectives add used.stone_axe minecraft.used:minecraft.stone_axe
-scoreboard objectives add used.iron_axe minecraft.used:minecraft.iron_axe
-scoreboard objectives add used.golden_axe minecraft.used:minecraft.golden_axe
-scoreboard objectives add used.diamond_axe minecraft.used:minecraft.diamond_axe
-scoreboard objectives add used.netherite_axe minecraft.used:minecraft.netherite_axe
+scoreboard objectives add used.wooden_axe minecraft.used:minecraft.wooden_axe {"text":"⛏","color":"red"}
+scoreboard objectives add used.stone_axe minecraft.used:minecraft.stone_axe {"text":"⛏","color":"gray"}
+scoreboard objectives add used.iron_axe minecraft.used:minecraft.iron_axe {"text":"⛏","color":"white"}
+scoreboard objectives add used.golden_axe minecraft.used:minecraft.golden_axe {"text":"⛏","color":"gold"}
+scoreboard objectives add used.diamond_axe minecraft.used:minecraft.diamond_axe {"text":"⛏","color":"aqua"}
+scoreboard objectives add used.netherite_axe minecraft.used:minecraft.netherite_axe {"text":"⛏","color":"light_purple"}
 ## pickaxes
-scoreboard objectives add used.wooden_pickaxe minecraft.used:minecraft.wooden_pickaxe
-scoreboard objectives add used.stone_pickaxe minecraft.used:minecraft.stone_pickaxe
-scoreboard objectives add used.iron_pickaxe minecraft.used:minecraft.iron_pickaxe
-scoreboard objectives add used.golden_pickaxe minecraft.used:minecraft.golden_pickaxe
-scoreboard objectives add used.diamond_pickaxe minecraft.used:minecraft.diamond_pickaxe
-scoreboard objectives add used.netherite_pickaxe minecraft.used:minecraft.netherite_pickaxe
+scoreboard objectives add used.wooden_pickaxe minecraft.used:minecraft.wooden_pickaxe {"text":"⛏","color":"red"}
+scoreboard objectives add used.stone_pickaxe minecraft.used:minecraft.stone_pickaxe {"text":"⛏","color":"gray"}
+scoreboard objectives add used.iron_pickaxe minecraft.used:minecraft.iron_pickaxe {"text":"⛏","color":"white"}
+scoreboard objectives add used.golden_pickaxe minecraft.used:minecraft.golden_pickaxe {"text":"⛏","color":"gold"}
+scoreboard objectives add used.diamond_pickaxe minecraft.used:minecraft.diamond_pickaxe {"text":"⛏","color":"aqua"}
+scoreboard objectives add used.netherite_pickaxe minecraft.used:minecraft.netherite_pickaxe {"text":"⛏","color":"light_purple"}
 ## shovels
 scoreboard objectives add used.wooden_shovel minecraft.used:minecraft.wooden_shovel
 scoreboard objectives add used.stone_shovel minecraft.used:minecraft.stone_shovel
