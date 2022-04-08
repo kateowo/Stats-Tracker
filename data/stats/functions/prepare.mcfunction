@@ -15,6 +15,10 @@ scoreboard objectives add player_kills playerKillCount {"text":"🗡","color":"r
 scoreboard objectives add death deathCount {"text":"☠","color":"red"}
 ## bows
 scoreboard objectives add used.bow minecraft.used:minecraft.bow
+scoreboard objectives add used.crossbow minecraft.used:minecraft.crossbow
+scoreboard objectives add used.trident minecraft.used:minecraft.trident
+scoreboard objectives add used.egg minecraft.used:minecraft.egg
+scoreboard objectives add used.snowball minecraft.used:minecraft.snowball
 ## swords
 scoreboard objectives add used.wooden_sword minecraft.used:minecraft.wooden_sword
 scoreboard objectives add used.stone_sword minecraft.used:minecraft.stone_sword
