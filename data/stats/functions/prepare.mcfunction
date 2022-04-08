@@ -3,24 +3,18 @@
 
 # create scoreboards
 ## general
-scoreboard objectives add health health
-scoreboard objectives modify health displayname {"text":" ♥","color":"red"}
-scoreboard objectives add hunger food
-scoreboard objectives modify hunger displayname {"text":" ♥","color":"gold"}
-scoreboard objectives add armor armor
-scoreboard objectives modify hunger displayname {"text":" 🛡","color":"gray"}
-scoreboard objectives add level level
-scoreboard objectives modify level displayname {"text":" ⭐","color":"green"}
-scoreboard objectives add xp xp
-scoreboard objectives modify xp displayname {"text":" ⭐","color":"green"}
+scoreboard objectives add health health {"text":"♥","color":"red"}
+scoreboard objectives add hunger food {"text":"♥","color":"gold"}
+scoreboard objectives add armor armor {"text":"🛡","color":"gray"}
+scoreboard objectives add level level {"text":"⭐","color":"green"}
+scoreboard objectives add xp xp {"text":"⭐","color":"green"}
 ## kills
-scoreboard objectives add total_kills totalKillCount
-scoreboard objectives modify total_kills displayname {"text":" 🗡","color":"red"}
-scoreboard objectives add player_kills playerKillCount
-scoreboard objectives modify player_kills displayname {"text":" 🗡","color":"red"}
+scoreboard objectives add total_kills totalKillCount {"text":"🗡","color":"red"}
+scoreboard objectives add player_kills playerKillCount {"text":"🗡","color":"red"}
 ## killed by
-scoreboard objectives add death deathCount
-scoreboard objectives modify death displayname {"text":" ☠","color":"red"}
+scoreboard objectives add death deathCount {"text":"☠","color":"red"}
+## bows
+scoreboard objectives add used.bow minecraft.used:minecraft.bow
 ## swords
 scoreboard objectives add used.wooden_sword minecraft.used:minecraft.wooden_sword
 scoreboard objectives add used.stone_sword minecraft.used:minecraft.stone_sword
