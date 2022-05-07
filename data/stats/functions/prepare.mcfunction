@@ -66,3 +66,11 @@ scoreboard objectives add custom.leave_game minecraft.custom:leave_game
 scoreboard objectives add custom.time_since_death minecraft.custom:time_since_death
 scoreboard objectives add custom.time_since_rest minecraft.custom:time_since_rest
 scoreboard objectives add custom.total_world_time minecraft.custom:total_world_time
+## mined
+scoreboard objectives add mined.iron_ore minecraft.mined:iron_ore
+scoreboard objectives add mined.deepslate_iron_ore minecraft.mined:deepslate_iron_ore
+scoreboard objectives add mined.gold_ore minecraft.mined:gold_ore
+scoreboard objectives add mined.deepslate_gold_ore minecraft.mined:deepslate_gold_ore
+scoreboard objectives add mined.diamond_ore minecraft.mined:diamond_ore
+scoreboard objectives add mined.deepslate_diamond_ore minecraft.mined:deepslate_diamond_ore
+scoreboard objectives add mined.ancient_debris minecraft.mined:ancient_debris
