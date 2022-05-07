@@ -67,10 +67,21 @@ scoreboard objectives add custom.time_since_death minecraft.custom:time_since_de
 scoreboard objectives add custom.time_since_rest minecraft.custom:time_since_rest
 scoreboard objectives add custom.total_world_time minecraft.custom:total_world_time
 ## mined
+scoreboard objectives add mined.copper_ore minecraft.mined:copper_ore
+scoreboard objectives add mined.deepslate_copper_ore minecraft.mined:copper_ore
+scoreboard objectives add mined.coal_ore minecraft.mined:coal_ore
+scoreboard objectives add mined.deepslate_coal_ore minecraft.mined:deepslate_coal_ore
+scoreboard objectives add mined.nether_quartz_ore minecraft.mined:nether_quartz_ore
 scoreboard objectives add mined.iron_ore minecraft.mined:iron_ore
 scoreboard objectives add mined.deepslate_iron_ore minecraft.mined:deepslate_iron_ore
 scoreboard objectives add mined.gold_ore minecraft.mined:gold_ore
 scoreboard objectives add mined.deepslate_gold_ore minecraft.mined:deepslate_gold_ore
+scoreboard objectives add mined.lapis_ore minecraft.mined:lapis_ore
+scoreboard objectives add mined.deepslate_lapis_ore minecraft.mined:deepslate_lapis_ore
+scoreboard objectives add mined.redstone_ore minecraft.mined:redstone_ore
+scoreboard objectives add mined.deepslate_redstone_ore minecraft.mined:deepslate_redstone_ore
+scoreboard objectives add mined.emerald_ore minecraft.mined:emerald_ore
+scoreboard objectives add mined.deepslate_emerald_ore minecraft.mined:deepslate_emerald_ore
 scoreboard objectives add mined.diamond_ore minecraft.mined:diamond_ore
 scoreboard objectives add mined.deepslate_diamond_ore minecraft.mined:deepslate_diamond_ore
 scoreboard objectives add mined.ancient_debris minecraft.mined:ancient_debris
